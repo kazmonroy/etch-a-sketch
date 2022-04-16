@@ -2,7 +2,7 @@
 
 From The Odin Project Foundations' [curriculum](https://www.theodinproject.com/courses/foundations/lessons/etch-a-sketch-project).
 
-## Objetive
+## Objective
 
 - To build an Etch-a-Sketch browser-based toy app using HTML, CSS and JavaScript to practice DOM manipulation skills.
 
