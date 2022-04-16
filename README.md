@@ -1,10 +1,10 @@
-# Etch A Sketch Browser App
+# Etch A Sketch Project
 
-From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foundations/lessons/etch-a-sketch-project).
+From The Odin Project Foundations' [curriculum](https://www.theodinproject.com/courses/foundations/lessons/etch-a-sketch-project).
 
 ## Objetive
 
-- To build an Etch-a-Sketch app using HTML, CSS and JavaScript to practice DOM manipulation skills.
+- To build an Etch-a-Sketch browser-based toy app using HTML, CSS and JavaScript to practice DOM manipulation skills.
 
 ## Built with
 
