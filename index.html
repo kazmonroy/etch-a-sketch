@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="pixels.png">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Etch a Sketch</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Etch A Sketch</h2>
+
+      <div class="sketch-board"></div>
+
+      <div class="buttons-panel">
+
+        <div class="size-buttons">
+            <p>Grid Size:</p>
+            <button class="size small">Small</button>
+            <button class="size medium">Medium</button>
+            <button class="size big">Big</button>
+        </div>
+
+        <div class="mode-buttons">
+            <p>Colors:</p>
+            <button class="mode black">Black</button>
+            <button class="mode random">Random</button>
+        </div>
+
+      <button class="erase">Erase</button>
+
+    </div>
+
+      
+
+    <script src="./app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>

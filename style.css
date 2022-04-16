@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #219ebc;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  color: #023047;
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  background-color: #fb8500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+}
+
+button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sketch-board {
+  display: grid;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+}
+
+.eachDiv {
+  border: 0.5px solid rgb(172, 172, 172);
+  background-color: rgb(206, 206, 206);
+}
+
+.small-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.medium-grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+}
+
+.big-grid {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+}
+
+.active-button {
+  background-color: #023047;
+  color: white;
+}
+
+.buttons-panel {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.size-buttons,
+.mode-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+}
