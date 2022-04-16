@@ -10,7 +10,7 @@ From The Odin Project Foundations' [curriculum](https://www.theodinproject.com/c
 
 - HTML
 - CSS
-- JS
+- JavaScript
 
 ### Tools
 
